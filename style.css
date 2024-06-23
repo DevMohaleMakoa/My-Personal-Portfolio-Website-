@@ -336,6 +336,51 @@ btn-box a:hover::before {
 
 
 
+@media (max-width: 480px) {
+    .navbar a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 12px;
+    }
+
+    .btn-box a {
+        font-size: 16px;
+    }
+
+    .home-sci a {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    /* Disable hover effects on mobile */
+    .logo:hover,
+    .navbar a:hover,
+    .home-content h1:hover,
+    .home-content h3:hover,
+    .home-content p:hover,
+    .btn-box a:hover,
+    .home-sci a:hover,
+    .home-imgHover:hover {
+        color: inherit;
+        text-decoration: none;
+        background-color: transparent;
+        opacity: 1;
+    }
+}
+
+
 
 
 
